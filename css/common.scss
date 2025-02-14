@@ -12,6 +12,10 @@ body{
   //  font-family: 'NanumHumanTTFBold';
 //}
 
+#gnb{
+    font-size: 2em;
+}
+
 .d-flex{
     display: flex;
 }
@@ -42,7 +46,14 @@ h1{
 }
 
 .utill{
+   li{
     span{
         color: red;
-    }
+
+           }
+        }  
+}
+
+.last{
+    background-color: yellow;
 }
