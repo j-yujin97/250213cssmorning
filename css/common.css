@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "NanumHumanTTFBold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/NanumHumanTTFBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "NanumHumanTTFBold";
+}
+
 .d-flex {
   display: flex;
 }
@@ -17,4 +27,20 @@
 .inner {
   width: 1280px;
   margin: 0 auto;
+}
+
+ul {
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.utill span {
+  color: red;
 }
